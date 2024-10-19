@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Online Shopping</h1>
+        <input type="text" placeholder="Search products, brands, and categories">
+    </header>
+
+    <main>
+        <section class="product-list">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Ceiling Fan">
+                <h3>Binatone CF-5603 Ceiling Fan</h3>
+                <p class="price"><del>GHC 490.00</del> <span class="discount">GHC 367.00</span></p>
+                <span class="offer">25% off</span>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Smartphone">
+                <h3>Infinix Smart 7 HD</h3>
+                <p class="price"><del>GHC 1,200.00</del> <span class="discount">GHC 1,124.00</span></p>
+                <span class="offer">6% off</span>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Digital TV">
+                <h3>Asano Digital Satellite</h3>
+                <p class="price"><del>GHC 1,609.00</del> <span class="discount">GHC 1,306.00</span></p>
+                <span class="offer">23% off</span>
+            </div>
+
+            <!-- More products here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Online Shopping. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
