@@ -1,1 +1,54 @@
+header {
+    background-color: #f7931e; /* Use a bright orange color */
+    padding: 20px;
+    text-align: center;
+}
 
+header h1 {
+    font-size: 28px;
+    color: white;
+    margin: 0; /* Remove extra margin */
+}
+
+header input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+header input[type="text"] {
+    width: 55%;
+}
+
+header input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s; /* Add a smooth hover effect */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
